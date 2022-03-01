@@ -1,0 +1,35 @@
+*{
+    box-sizing: inherit;
+}
+body{
+    margin: 0px;
+}
+html{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+@keyframes headernotifyGrowth{
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+ 
+}
+@keyframes growth {
+    from{
+        opacity: 0;
+        transform: calc(var(--percent) - 50%);
+    
+    }
+    to{
+        opacity: 1;
+        transform: var(--percent);
+    }
+}

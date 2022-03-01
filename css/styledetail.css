@@ -1,0 +1,567 @@
+.main--container-detail{
+    background: #555357;
+}
+.title--detail{
+    background: #111;
+}
+.movie--info{
+    display:flex;
+    padding:10px;
+}
+.img--movie-info{
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+.wrapper--detail{
+    margin-top: 2%;
+}
+.name--movie-VN{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #dacb46;
+}
+.data--movie-info{
+    margin-left: 2%;
+}
+.text--dl{
+    overflow-x:hidden;
+    overflow-y:auto;
+    background: #222;
+    color: #bbb;
+    padding: 10px;
+    border: 1px solid #403e3e;
+    border-radius: 2px;
+}
+.name--movie-EL,.year--movie{
+    color: #bbb;
+}
+.detail--left-top{
+    background: #111;
+}
+.title--rate-movie{
+    font-size: 1.4rem;
+    color: #f78144;
+}
+.viewer--movie{
+    color: #ffff;
+}
+.icon--active-detail {
+    color: #ec9f00;
+}
+.quality--movie{
+    color:red;
+}
+.text--dl-link{
+    color: #46e1ff;
+}
+.title--detail{
+    padding: 0.5%;
+    border-radius: 5px;
+}
+.viewer--movie{
+    font-size: 15px;
+}
+.view-detail{
+    position: absolute;
+    display: flex;
+    margin-top: 38%;
+    background: rgba(0,0,0,.8);
+    padding: 12px 66px 6px 66px;
+
+}
+.view--trailer{
+    border: 1px solid #428bca;
+    background: #428bca;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #ffff;
+    margin-right: 5px;
+}
+.view--trailer:hover{
+    opacity: 0.7;
+}
+.view--movie{
+    border: 1px solid #d43f3a;
+    background: #d43f3a;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: #ffff;
+    margin-left: 5px;
+}
+.view--movie:hover{
+    opacity: 0.7;
+}
+.img--actor{
+    width:100px;
+}
+.movie--actor{
+    background: #222;
+    border: 1px solid #121212;
+    padding: 10px;
+    margin-top:10px;
+}
+.actor--title{
+    padding: 1%;
+    color: #dacb46;
+    font-weight: 600;
+}
+.nameimg--info{
+    width: 100%;
+    padding:10px;
+}
+
+.name--actor{
+    font-size: 12px;
+    color: #46e1ff;
+    text-align: center;
+}
+.info--actor{
+    display:flex;
+    width: 100%;
+    transition: transform 0.25s ease-out;
+
+}
+.slide--actor{
+    overflow: hidden;
+}
+.name--actor{
+    margin-top: 5px;
+}
+.icon--actor-left,.icon--actor-right{
+    color:white;
+    position:absolute;
+}
+.icon--actor-left {
+    margin-top: 4%;
+    border: 1px solid #080808;
+    background: #080808;
+    padding: 15px;
+    border-radius: 4px;
+    margin-left: -10px;
+}
+.icon--actor-left:hover , .icon--actor-right:hover{
+    cursor: pointer;
+}
+.icon--actor-right{
+    margin-left: 895px;
+    margin-top: -11%;
+    border: 1px solid #080808;
+    background: #080808;
+    padding: 15px;
+    border-radius: 4px;
+}
+.nameimg--info:hover .img--actor{
+    opacity: 0.7;
+    
+}
+.nameimg--info:hover:hover .name--actor{
+    color:rgb(196, 196, 21);
+}
+.header--content-movie{
+    display:flex;
+}
+.content--movie-detail{
+    color: #dacb46;
+    font-weight: 600;
+    padding: 1px;
+}
+.content--movie-likeshare{
+    color: #ffff;
+    margin-left: 65%;
+    font-size: 14px;
+    
+}
+.content--moive-like{
+    border: 1px solid #428bca;
+    background: #428bca;
+    padding: 0px 5px;
+    border-radius: 4px;
+    color:white;
+}
+.content--moive-share{
+    border: 1px solid #428bca;
+    background: #428bca;
+    padding: 0px 5px;
+    border-radius: 4px
+}
+.content--movie{
+    margin-top: 2%;
+    background: #222222;
+    padding: 10px;
+}
+.content--moive-like:hover{
+    cursor: pointer;
+}
+.content--moive-share{
+    cursor: pointer;
+}
+.img--content-title{
+    width: 100%;
+}
+.text--content-title{
+    color:#bbb;
+}
+.main--content-title{
+    color: #bbb;
+   
+}
+.link--text-content{
+    color: #00acc1;
+}
+.containt--showmore{
+    color: white;
+}
+.thugon{
+    display:none;
+    text-align: center;
+
+}
+.showmore--title{
+    text-align: center;
+}
+.text--content-title{
+    padding-bottom: 2%;
+}
+.showmore--title, .thugon{
+    border-top: 1px solid white;
+    padding-top: 5px;
+}
+.showmore--title:hover, .thugon:hover{
+    cursor: pointer;
+}
+.containt--trailer{
+    border-top: 2px dashed #333;
+    border-bottom: 2px dashed #333;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+}
+.trailer--title{
+    font-size: 1.4rem;
+    color: #dacb46;
+}
+.trailer--video{
+    width:100%;
+}
+.keyword--name{
+    color: #999;
+}
+.keyword--text{
+    color: #ffff;
+}
+.detail--left-mid{
+    background:#222;
+    margin-top: 4%;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+.comment--title{
+    font-size: 1.4rem;
+    color: #dacb46;
+}
+.comment-main{
+    background: white;
+    border-radius: 5px;
+    padding: 2%;
+}
+.link--main{
+    color: #111;
+    font-weight: 700;
+}
+.link--main:hover{
+    color: #c3e6b9;
+}
+.comment-header-like{
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    border-radius: 4px;
+    margin-left: 50%;
+    color: white;
+}
+.numcomsort{
+    display:flex;
+    margin-top: 2%;
+}
+.comment--sort{
+    margin-left: 58%;
+}
+.number--comment{
+    font-weight: 700;
+}
+.comment--main-container{
+    margin-top: 25px;
+    border-top: 1px solid #bba8a8;
+    padding-top: 10px;
+}
+.addcomment{
+    display:flex;
+}
+.avartar--comment{
+    width: 7%;
+    height: 10%;
+    margin-right: 2%;
+}
+.txtcomment{
+    height: 50px;
+    width: 100%;
+    border: 1px solid #a7a4a4;
+}
+.icon--camara-comment{
+    position: absolute;
+    margin-left: 845px;
+    margin-top: 3%;
+    color: gray;
+}
+.viewcomment{
+    margin-top: 2%;
+    display:flex;
+}
+.viewcomment:hover .icon--operation-comment{
+    display: block;
+}
+.name--comment{
+    color: #385898;
+    cursor: pointer;
+    font-weight: 900;
+}
+.name--comment:hover{
+    border-bottom: 1px solid #a18c8c;
+}
+.text--comment{
+    font-size: 15px;
+}
+.like--feedback{
+    color: #4267b2;
+    font-size: 0.8rem;
+}
+.like--comment:hover, .feedback--comment:hover{
+    cursor: pointer;
+    border-bottom: 1px solid #a18c8c;
+}
+.icon--operation-comment{
+    margin-left: 71%;
+    margin-top: 3%;
+    position: relative;
+    display:none;
+    cursor: pointer;
+}
+
+.operation-comment{
+    list-style: none;
+    position:absolute;
+    margin-left: -150px;
+    margin-top: 6%;
+    border: 1px solid #d1caca;
+    box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+    padding: 3%;
+    width:170px;
+    display:none;
+    z-index: 1;
+}
+.operation-comment::after{
+    content: "";
+    border-width: 10px 90px;
+    border-style: solid;
+    border-color: transparent transparent transparent transparent;
+    position: absolute;
+    right: -9px;
+    top: -19px;
+}
+.menu--operation-comment:hover{
+    background: #ababab
+}
+.icon--operation-comment:hover .operation-comment {
+     display:block;
+}
+.viewadd--comment{
+    width: 100%;
+    background: #3578e5;
+    color: white;
+    border: 1px solid #3578e5;
+    padding: 10px;
+    margin-top: 5%;
+    border-radius: 5px;
+    display:none;
+}
+.img--movielike{
+    position: relative; 
+}
+.img--movielike:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.nameyear{
+padding:3px;
+ background: #000;
+ width: 250px;
+
+}
+.namevn{
+    color: #44E2FF;
+    font-size: 1.1rem;
+    font-weight: 400;
+    width:100%;/* chiều rộng bằng khối bao nó*/
+    white-space: pre-wrap; 
+    overflow: hidden; /* ẩn các nội dung khi kích thước lớn hơn chiều rộng khối bên ngoài */
+    text-overflow: ellipsis; /*thêm 3 dấu chấm ở cuối*/
+    -webkit-line-clamp: 1;/*số dòng muốn hiển thị */
+    -webkit-box-orient: vertical;
+     display: -webkit-box;
+}
+.namevn:hover{
+    cursor: pointer;
+    color: rgb(201, 201, 96);
+}
+.nameel{
+    color: #ccc;
+    width:100%;/* chiều rộng bằng khối bao nó*/
+    white-space: pre-wrap; 
+    overflow: hidden; /* ẩn các nội dung khi kích thước lớn hơn chiều rộng khối bên ngoài */
+    text-overflow: ellipsis; /*thêm 3 dấu chấm ở cuối*/
+    -webkit-line-clamp: 1;/*số dòng muốn hiển thị */
+    -webkit-box-orient: vertical;
+     display: -webkit-box;
+}
+.nameel:hover{
+    cursor: pointer;
+    color:#00acc1;
+}
+.yearmanu{
+    color: #777;
+}
+.likewatch{
+    margin-top: 2%;
+}
+.likewatch--main{
+    display: flex;
+    padding:0;
+    flex-wrap:wrap;
+}
+.movielike{
+    margin-right: 6%;
+    
+}
+.title{
+    color: #dacb46;
+    border-bottom: 1px solid gray;
+}
+.wrapper--detail{
+    display:flex;
+}
+.sub-view{
+    position:absolute;
+    display: flex;
+    list-style: none;
+    width: 50%;
+    background:rgba(25,25,25,.9);
+    border: 1px solid #79777a;
+    color:#ffff;
+    height: 30%;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    z-index: 1;
+}
+.img--movielike{
+    width: 250px;
+    height:350px;
+}
+.movielike{
+    padding-right: 15px;
+    margin-top: 10px;
+}
+@media (max-width: 739px) {
+    .sub-view{
+        display:inline;
+        height:325px;
+    }
+    .img--movie-info{
+        width: 150px;
+        height: 205px;
+    }
+    .view-detail{
+        margin-top:100%;
+    }
+  .detail-right{
+      display: none;
+  }
+  .wrapper--detail{
+    background:#111;
+  }
+  .detail-left{
+      padding-left: 0px;
+      padding-right: 0px;
+  }
+  .view-detail{
+    font-size: 10px;
+  }
+  .view-detail{
+    padding: 12px 11px 8px 10px;
+  }
+  .movie--info{
+      width: 330px;
+  }
+  .img--movie-info{
+      margin-top:60px;
+  }
+  .title--data{
+    margin-left: -157px;
+  }
+  .text--dl{
+      font-size: 11px;
+  }
+  .rate--movie{
+    margin-left: -156px;
+    background: #222;
+    padding: 5px;
+    margin-top: 15px;
+  }
+  .movie--actor{
+      width: 140%;
+      margin-left: 10px;
+  }
+  .img--actor{
+      width: 75px;
+  }
+  .icon--actor-right{
+    margin-left: 118%;
+    padding: 12px;
+    margin-top: -50%;
+  }
+  .icon--actor-left{
+      padding:12px;
+      margin-top: 13%;
+  }
+  .content--movie{
+    margin-left: 10px;
+    width: 307px;
+  }
+  .content--movie-likeshare{
+      margin-left: 5%;
+  }
+  .detail--left-mid{
+    width: 307px;
+    margin-left: 5%;
+  }
+  .likewatch--container{
+      overflow: hidden;
+  }
+  .img--movielike{
+      width: 145px;
+  }
+ .likewatch--container{
+     margin-left: 5%;
+     width: 304px;
+ }
+ .comment--sort{
+    margin-left: 30%;
+ }
+ .icon--camara-comment{
+    margin-left: 255px;
+    margin-top: 15%;
+ }
+ .icon--operation-comment{
+     margin-left: 55%;
+ }
+}
